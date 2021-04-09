@@ -1,13 +1,17 @@
 //stard programm
-var stard = prompt ("scrive ok per iniziare")
-if(stard == "ok"){
-  for(i=0; i < 100; i++){
-    
-  }
-}else{
-  alert("riprova")
+
+//numeri dentro all'array
+
+for (var i=1; i < 100; i++) {
+  if (i%3 == 0 && i%5 == 0){
+    console.log("fizzBuzz");
+  }if (i % 3 == 0){
+    console.log("fizz");
+  }else if(i % 5 == 0){
+    console.log("Buzz");
+  }else{
+    console.log(i);
+  } 
 }
 
-var numeri = [0]
 
-console.log(all)
